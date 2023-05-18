@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppointmentActivity">
+
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:textSize="40sp"
+        android:textColor="#006DA1"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Your Appointment Here" />
+
+    <EditText
+        android:id="@+id/mEdtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your name..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mEdtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your email..."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/mEdtAppointmentReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter reason of appointment..."
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/mBtnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request" />
+
+    <Button
+        android:id="@+id/mBtnView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View appointments" />
+</LinearLayout>

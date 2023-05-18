@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "946942302578",
+    "firebase_url": "https://appointment-app-3608f-default-rtdb.firebaseio.com",
+    "project_id": "appointment-app-3608f",
+    "storage_bucket": "appointment-app-3608f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946942302578:android:f0ad75a2d9433b08c3a5eb",
+        "android_client_info": {
+          "package_name": "com.example.governmentappointmentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946942302578-4qcjfk55vnf3aa36vl7r3phgei9bnb3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj9UflWT_PZVpT0bu6u6jMQmPDBi8_IjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946942302578-4qcjfk55vnf3aa36vl7r3phgei9bnb3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
